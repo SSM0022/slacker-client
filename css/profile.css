@@ -96,7 +96,7 @@ p {
 }
 
 main section {
-  border-top: 2px #000000 solid;
+  border-top: 2px #471c9c solid;
   padding-top: 2rem;
 }
 
@@ -110,6 +110,10 @@ span.label {
   min-width: 8rem;
   display: inline-block;
   color: #471c9c;
+}
+
+div {
+  margin-top: -3rem;
 }
 
 

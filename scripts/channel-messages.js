@@ -92,7 +92,7 @@ var messages = [
               let message = {
               "user": {
               "name": "Simarjit",
-              "image": "https://i.ibb.co/1nZ0My6/Incognito-Corrected.png"
+              "image": "https://i.ibb.co/8c9m3dv/Incognito-Corrected-v3.png"
               },
               "message": {
               "text": event.target.value,

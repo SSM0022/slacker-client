@@ -1,19 +1,21 @@
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  color: #471c9c;
 }
 
-html, body {
-  height:100%;
+html,
+body {
+  height: 100%;
 }
 
 body>section {
- width: 100%;
- position: relative;
- top: 50%;
- transform: translateY(-70%);
- float: left;
- }
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-70%);
+  float: left;
+}
 
 aside {
   display: inline-block;
@@ -21,14 +23,45 @@ aside {
   float: left;
 }
 
- aside img {
-   width: 80%;
-   height: auto;
- } 
+aside img {
+  width: 80%;
+  height: auto;
+}
 }
 
 main {
   display: inline-block;
   width: 49%;
   float: left;
+}
+
+#headingOne {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#headingTwo {
+  font-size: 2.4rem;
+  font-weight: 500;
+
+}
+
+#headingThree {
+  color: grey;
+  font-size: 1.5rem;
+  font-weight: 450;
+
+}
+
+section form input {
+  padding: 0.33rem;
+}
+
+input.textfield {
+  width: 11%;
+}
+input.submit {
+  width: 5%;
+  color: black;
 }
